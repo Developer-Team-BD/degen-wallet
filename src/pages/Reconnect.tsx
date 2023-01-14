@@ -16,7 +16,7 @@ const Reconnect: React.FC = () => {
               </h1>
             </div>
             <div className="my-5">
-              <div className="bgGradient p-[1px] rounded-md w-[70%] m-auto relative">
+              <div className="bgGradient p-[1px] rounded-md w-[220px] m-auto relative">
                 <div className="bg-[#111111] rounded-md py-1">
                   <h3 className="pl-8 md:text-[1.25rem] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#E873FF] to-[#53FFFC]">
                     9pfp.......we3b
@@ -25,7 +25,7 @@ const Reconnect: React.FC = () => {
                 <div className="bgGradient w-[65px] h-[65px] rounded-full flex items-center justify-center absolute top-[-12px] left-[-25px]">
                   <div className="relative bg-[#111111] w-[63px] h-[63px] rounded-full flex items-center justify-center">
                     <img src={logo} alt="l" className="w-[40px]" />
-                    <div className="bg-[#111111] h-[38px] w-[10px] absolute right-[-5px]"></div>
+                    <div className="md:block hidden bg-[#111111] h-[38px] w-[10px] absolute right-[-5px]"></div>
                   </div>
                 </div>
               </div>
